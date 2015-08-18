@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="Test3"
+    errors="0" failures="1" hostname="" id="" package="Test3" skipped="0"
+    tests="1" time="2.358" timestamp="Tue, 18 Aug 2015 06:42:34 GMT">
+  
+    <testcase name="Demo test Google" time="2.358" assertions="2">
+
+      <failure message="Testing if the page title equals &quot;Employee Application&quot;.">Testing if the page title equals &quot;Employee Application&quot;.: Expected &quot;Employee Application&quot; but got: &quot;Problem loading page&quot;
+    at Object.&lt;anonymous&gt; (/home/student/Desktop/Nightwatch/nightwatch1/node_modules/nightwatch/lib/core/assertion.js:105:19)
+    at HttpRequest.&lt;anonymous&gt; (/home/student/Desktop/Nightwatch/nightwatch1/node_modules/nightwatch/lib/index.js:311:20)
+    at HttpRequest.emit (events.js:110:17)
+    at HttpRequest.&lt;anonymous&gt; (/home/student/Desktop/Nightwatch/nightwatch1/node_modules/nightwatch/lib/index.js:334:15)
+    at HttpRequest.emit (events.js:118:17)
+    at IncomingMessage.&lt;anonymous&gt; (/home/student/Desktop/Nightwatch/nightwatch1/node_modules/nightwatch/lib/http/request.js:148:16)
+    at IncomingMessage.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
